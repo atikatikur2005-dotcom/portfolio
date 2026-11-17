@@ -113,7 +113,7 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="navbar">
-        <a className="brand" href="#home" aria-label="Go to home"><span className="brand-mark">AR</span><span className="brand-name">Md. Atikur Rahman</span></a>
+        <a className="brand" href="#home" aria-label="Go to home"><span className="brand-name">Md. Atikur Rahman</span></a>
         <nav className={menuOpen ? "nav-links open" : "nav-links"} aria-label="Main navigation">
           {navItems.map((item) => <a key={item} className={active === item ? "active" : ""} href={`#${item.toLowerCase()}`} onClick={() => setMenuOpen(false)}>{item}</a>)}
         </nav>

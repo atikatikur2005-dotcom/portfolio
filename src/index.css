@@ -176,7 +176,7 @@ footer { padding: 44px clamp(24px, 7vw, 112px) 25px; max-width: 1600px; margin: 
 @keyframes float { 50% { transform: translateY(-7px); } }
 
 @media (max-width: 1100px) {
-  .nav-links { gap: 14px; }.nav-links a { font-size: 11px; }.brand-name, .desktop-socials { display: none; }
+  .nav-links { gap: 14px; }.nav-links a { font-size: 11px; }.desktop-socials { display: none; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }.projects-grid { grid-template-columns: repeat(2, 1fr); }.project-card:last-child { grid-column: span 2; display: grid; grid-template-columns: 1fr 1fr; }
   .contact-section { grid-template-columns: 1fr; gap: 0; }.section-grid { gap: 6vw; }
 }
@@ -195,7 +195,7 @@ footer { padding: 44px clamp(24px, 7vw, 112px) 25px; max-width: 1600px; margin: 
 }
 
 @media (max-width: 420px) {
-  .brand-name { display: none; }.hero-actions { flex-wrap: wrap; }.hero-actions .primary, .hero-actions .secondary { flex: 1; }.hero-actions .icon-button { flex: 0 0 auto; }
+  .hero-actions { flex-wrap: wrap; }.hero-actions .primary, .hero-actions .secondary { flex: 1; }.hero-actions .icon-button { flex: 0 0 auto; }
   .project-visual { height: 210px; }.footer-bottom div { flex-wrap: wrap; }
 }
 
