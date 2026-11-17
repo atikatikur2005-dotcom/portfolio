@@ -136,8 +136,6 @@ export default function App() {
                 <img src={profileImage} alt="Md. Atikur Rahman" data-atropos-offset="8" />
               </div>
             </Atropos>
-            <span className="portrait-tag tag-code"><Icon name="code" size={16} /> Build</span>
-            <span className="portrait-tag tag-create"><Icon name="figma" size={16} /> Create</span>
           </div>
           <div className="hero-copy">
             <div className="hero-overline">Hello, I’m</div>
@@ -161,9 +159,6 @@ export default function App() {
               <p>I enjoy creating efficient applications, challenging myself with algorithmic thinking, and learning new tools that improve my development process. My work is shaped by strong fundamentals, practical coding skills, and a passion for solving meaningful problems.</p>
               <div className="about-note"><Icon name="briefcase" /><span>Currently open to <strong>internships, collaborations, and learning opportunities.</strong></span></div>
             </div>
-          </div>
-          <div className="stats reveal">
-            {[["02", "Year", "CSE Student"], ["05", "Semester", "Current level"]].map(([value, title, desc]) => <div className="stat" key={title}><strong>{value}</strong><span>{title}</span><small>{desc}</small></div>)}
           </div>
         </section>
 
