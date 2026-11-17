@@ -1,7 +1,8 @@
 {
-  "description": "Showcase your skills and projects with a modern, responsive portfolio website designed for computer science students, enhancing professional visibility and opportunities.",
+  "title": "Md. Atikur Rahman | Portfolio",
+  "description": "Computer Science student at Daffodil International University showcasing software projects, programming skills, and problem-solving work.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
